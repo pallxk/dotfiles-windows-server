@@ -1,3 +1,15 @@
+Visual Studio 2012 and 2013 both have the display name of the installed
+service as “Remote Debugger”, although their service names are different. This
+causes conflict when installing remote debugger service for 2012 and 2013 at
+the same time.
+
+This is why this guide and script come out.
+
+See
+https://zzz.buzz/notes/visual-studio-remote-debugger/
+for details.
+
+
 ## 1. Download "Remote Tools for Microsoft Visual Studio 2013"
 
 ### Download Page:
